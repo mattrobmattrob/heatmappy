@@ -3,6 +3,8 @@ from setuptools import setup
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
+print(required)
+
 setup(
     name='heatmappy-bks',
     packages=['heatmappy-bks'],
