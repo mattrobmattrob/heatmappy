@@ -3,11 +3,9 @@ from setuptools import setup
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
-print(required)
-
 setup(
-    name='heatmappy-bks',
-    packages=['heatmappy-bks'],
+    name='heatmappy',
+    packages=['heatmappy'],
     version='0.3.0',
     description='Draw image heatmaps in python',
     author='Lumen Research',
