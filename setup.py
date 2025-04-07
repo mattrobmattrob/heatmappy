@@ -10,7 +10,7 @@ setup(
     description='Draw image heatmaps in python',
     author='Lumen Research',
     author_email='development@lumen-research.com',
-    url='https://github.com/LumenResearch/heatmappy',
+    url='https://github.com/mattrobmattrob/heatmappy',
     keywords=['image', 'heatmap', 'heat map'],
     install_requires=required,
     classifiers=[
