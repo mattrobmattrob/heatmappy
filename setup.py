@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='heatmappy',
+    name='heatmappy-bks',
     packages=['heatmappy'],
     version='0.3.0',
     description='Draw image heatmaps in python',
